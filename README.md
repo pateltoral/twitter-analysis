@@ -1,6 +1,5 @@
 # TwitterAnalysis
 
-Milestone 2:
 Prototype: Fetching tweets from twitter using twitter developer API
 Steps:
 1. OS: UBUNTU
