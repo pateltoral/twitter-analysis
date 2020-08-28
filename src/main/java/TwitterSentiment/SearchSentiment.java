@@ -34,10 +34,10 @@ public class SearchSentiment extends HttpServlet {
 			String search = request.getParameter("txtSearch");
 
 			ConfigurationBuilder cb = new ConfigurationBuilder();
-			cb.setOAuthConsumerKey("0YwaeMsPVAZVUqGDmMyHuXb47");
-			cb.setOAuthConsumerSecret("QOCu6NzUKDfO4zc8iJNIHVVIwevSBxq5QVhEjSR4rB5PSKXKwI");
-			cb.setOAuthAccessToken("1708862264-BMIHw2b6oKGs9StCoJdORxJAZ2dBwlnPFFeZM92");
-			cb.setOAuthAccessTokenSecret("wxHy4GrXi5FK17djjNIdAVCK5W8IYYD8g0AysSBpyOk6Q");
+			cb.setOAuthConsumerKey("**************************");
+			cb.setOAuthConsumerSecret("*******************************************");
+			cb.setOAuthAccessToken("**************************************");
+			cb.setOAuthAccessTokenSecret("*******************************************");
 
 			Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 			Query query = new Query("#" + search);
